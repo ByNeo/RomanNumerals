@@ -12,7 +12,7 @@ namespace RomanNumerals.API.Controllers
     {
         #region [Fields]
 
-        private Core.Operation.RomanNumerals roman;
+        private RomanNums roman;
 
         #endregion
 
@@ -21,7 +21,7 @@ namespace RomanNumerals.API.Controllers
 
         public RomanNumeralsController()
         {
-            roman = new Core.Operation.RomanNumerals();
+            roman = new RomanNums();
         }
 
         #endregion

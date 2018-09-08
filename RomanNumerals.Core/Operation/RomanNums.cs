@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RomanNumerals.Core.Operation
 {
-    public class RomanNumerals
+    public class RomanNums
     {
         /// <summary>
         /// Checks for situations that prevent translation into Roman numerals.
