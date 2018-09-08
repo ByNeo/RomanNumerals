@@ -1,6 +1,11 @@
-﻿$(function () {
+﻿var href = 'http://localhost';
+var port = '30667';
+
+
+$(function () {
     romanNumInit();
 });
+
 
 
 var romanNumInit = function () {
@@ -15,7 +20,7 @@ var romanNumInit = function () {
 var romanNumConvert = function (number) {
 
     $.ajax({
-        url: 'http://localhost:30667/api/RomanNumerals/Converter',
+        url: href + ':' + port + '/api/RomanNumerals/Converter',
         type: 'GET',
         dataType: 'json',
         data: {
